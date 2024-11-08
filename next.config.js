@@ -3,7 +3,7 @@ let nextConfig = {
     return [
       {
         source: '/:path*',
-        destination: 'http://localhost:4000/:path*',
+        destination: 'http://not-existing-host:4000/:path*',
       },
     ];
   },
